@@ -1,0 +1,14 @@
+﻿@model Lanche
+
+<div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="card shadow-sm h-100">
+        <img src="@Model.ImagemUrl" class="card-img-top img-fluid" alt="@Model.Nome">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Nome</h5>
+            <p class="card-text">@Model.DescricaoCurta</p>
+            <h6 class="card-subtitle mb-2 text-muted">Preço: @Model.Preco.ToString("c")</h6>
+            <a href="@Url.Action("Details", "Lanche", new { lancheId = Model.LancheId })" class="btn btn-outline-primary btn-sm">Ver detalhes</a>
+            <a href="@Url.Action("AdicionarItemNoCarrinhoCompra", "CarrinhoCompra", new { lancheId = Model.LancheId })" class="btn btn-primary btn-sm mt-2">Incluir no Carrinho</a>
+        </div>
+    </div>
+</div>
