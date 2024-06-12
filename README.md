@@ -43,4 +43,4 @@ Criação do AccountController com os métodos login, register e logout.
 Adição das views correspondentes e da _LoginPartial para exibir o estado de autenticação no layout.
 Este projeto demonstra a integração de diversas tecnologias e padrões de projeto para criar uma aplicação web robusta e escalável. É um excelente exemplo de como aplicar as melhores práticas de desenvolvimento em um projeto real.
 
-Esse resumo detalhado deve fornecer uma visão completa das funcionalidades e tecnologias utilizadas no seu projeto, destacando as boas práticas aplicadas.
+
